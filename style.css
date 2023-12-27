@@ -1,3 +1,53 @@
 body {
-  background-color: aqua;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  border: none;
+  color: whitesmoke;
+}
+
+.header-bg {
+  background-color: #1f2937;
+  color: whitesmoke;
+}
+
+img {
+  height: 350px;
+  border-radius: 5px;
+}
+
+p {
+  width: 80%;
 }
